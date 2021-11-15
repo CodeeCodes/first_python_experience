@@ -34,6 +34,7 @@ print(abs(my_num_2))
 
 #numbers to the power of eg. 4*4 for this example
 print(pow(2,4))
+print(pow(2,5))
 
 
 
