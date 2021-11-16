@@ -1,3 +1,5 @@
+from math import *
+
 # variables & strings
 character_name = "Codee"
 print(character_name + " Is High")
@@ -36,5 +38,11 @@ print(abs(my_num_2))
 print(pow(2,4))
 print(pow(2,5))
 
+#round function
+print(round(5, 10))
 
+#math funtions
 
+print(floor(3))
+print(ceil(3))
+print(sqrt(3))
