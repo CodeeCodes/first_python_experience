@@ -1,15 +1,16 @@
 
 #if statements
-
-is_male = True
-is_tall =False
-
-if is_male or is_tall:
-    print ("you are a male and tall")
-else:
-    print ("You are female and tall")
+is_female = True
+is_male = False
+is_tall = True
 
 if is_male and is_tall:
-    print ("you are a male and tall")
+    print ("you are a tall male")
+elif is_male and not is_tall:
+    print ("you are a short male")
+elif is_female and is_tall:
+    print ("you are a tall female")
 else:
-    print ("You are female and tall")
+    print ("You are short female")
+
+
