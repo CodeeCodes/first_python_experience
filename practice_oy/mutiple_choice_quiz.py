@@ -18,7 +18,7 @@ questions = [
 
 def run_test(questions):
     score = 0
-    for question in questions: 
+    for question in questions:
         answer = input(question)
         print (answer)
         if answer == question_prompt:
