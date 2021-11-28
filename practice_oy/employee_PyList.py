@@ -1,5 +1,6 @@
 
 # opening file in same directory
+# open keyword get files (type out file)
 # read/write/a(append) and r+(read and write) modes second parameter
 employee_list = open("employee.txt", "r")
 
